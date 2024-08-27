@@ -30,9 +30,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <div class="d-flex">
-            <button>Add .25$</button>
-          </div>
+
         </div>
       </div>
       <div class="flex-grow-1 justify-content-end align-items-center d-flex" id="authstate"></div>
@@ -42,86 +40,64 @@
   <!-- SECTION -->
   <main>
     <div class="container-fluid">
-      <section class="row d-flex">
-        <div class="col-2 card m-5 bg-dark text-light">
-          <img src="https:placehold.it/300x300" alt="">
-          Item 1
-          <button>Buy Snack</button>
-        </div>
+      <div class="d-flex">
+        <button onclick="app.SnacksController.addQuarter()">Add .25$</button>
+      </div>
 
-        <div class="col-2 card m-5 bg-dark text-light">
-          <img src="https:placehold.it/300x300" alt="">
-          Item 2
+      <section id="snack-card" class="row d-flex">
+
+        <!-- <div class="col-4 card m-1 bg-dark text-light">
+          <div class="">
+            <img src="${this.imgURL}" alt="">
+          </div>
+          <p>${this.name}</p>
+          <p>${this.price}</p>
           <button>Buy Snack</button>
-        </div>
-        <div class="col-2 card m-5 bg-dark text-light">
-          <img src="https:placehold.it/300x300" alt="">
-          Item 3
-          <button>Buy Snack</button>
-        </div>
+        </div> -->
+
+
+
       </section>
+    </div>
 
 
+    <div class="container-fluid">
 
-      <section class="row d-flex">
-        <div class="col-2 card m-5 bg-dark text-light">
-          <img src="https:placehold.it/300x300" alt="">
-          Item 1
-          <button>Buy Snack</button>
-        </div>
-
-        <div class="col-2 card m-5 bg-dark text-light">
-          <img src="https:placehold.it/300x300" alt="">
-          Item 2
-          <button>Buy Snack</button>
-        </div>
-        <div class="col-2 card m-5 bg-dark text-light">
-          <img src="https:placehold.it/300x300" alt="">
-          Item 3
-          <button>Buy Snack</button>
-        </div>
-      </section>
-
-
-
-      <section class="row d-flex">
-        <div class="col-2 card m-5 bg-dark text-light">
-          <img src="https:placehold.it/300x300" alt="">
-          Item 1
-          <button>Buy Snack</button>
-        </div>
-
-        <div class="col-2 card m-5 bg-dark text-light">
-          <img src="https:placehold.it/300x300" alt="">
-          Item 2
-          <button>Buy Snack</button>
-        </div>
+      <section class="row">
         <div class="col-4 m-5 bg-dark text-light">
-          <div class="card">
-            <span>
-              Total Monies:
-            </span>
+          <div class="card bg-dark text-light">
+            <h1>Total Monies: $ <span id="quarterCount"> </span></h1>
           </div>
         </div>
       </section>
 
-
-
-
-
-
-
-
-
-
-
     </div>
 
 
-
-
-
   </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <!-- SECTION -->
   <footer class="bg-dark text-light">

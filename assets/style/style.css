@@ -1,1 +1,9 @@
 /* BASIC STYLES HERE */
+.snack-img {
+  min-width: 100%;
+  max-height: 15vh;
+}
+
+.snack-card {
+  min-width: 200px;
+}
